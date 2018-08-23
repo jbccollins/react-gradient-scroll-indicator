@@ -1,6 +1,6 @@
 # react-gradient-scroll-indicator
 
-> A wrapper for scrollable content to add gradients indicating when more scrolling is possible
+> A wrapper for scrollable content that adds gradients indicating when more scrolling is possible
 
 [![NPM](https://img.shields.io/npm/v/react-gradient-scroll-indicator.svg)](https://www.npmjs.com/package/react-gradient-scroll-indicator) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -15,16 +15,23 @@ npm install --save react-gradient-scroll-indicator
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-gradient-scroll-indicator'
+import GradientScroll from 'react-gradient-scroll-indicator'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <GradientScroll>
+      	<div>
+      		Literally any content you want can go here.
+      	</div>
+      </GradientScroll>
     )
   }
 }
 ```
+
+# Example GIF
+![Example Gif](https://media.giphy.com/media/26vwgzumpsCPKWMZBt/giphy.gif)
 
 ## License
 
