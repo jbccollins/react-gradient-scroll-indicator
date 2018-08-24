@@ -1,11 +1,10 @@
-// TODO: Handle resizing https://www.npmjs.com/package/react-resize-detector
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Style from 'style-it';
 
-import styles from './styles.css'
+import styles from './styles.scss'
 
-export default class ExampleComponent extends Component {
+export default class GradientScroll extends Component {
   static propTypes = {
     primaryColor: PropTypes.string, 
     fadeColor: PropTypes.string,
@@ -69,7 +68,7 @@ export default class ExampleComponent extends Component {
   }
 }
 
-ExampleComponent.defaultProps = {
+GradientScroll.defaultProps = {
     primaryColor: "#ffffff",
     fadeColor: "transparent",
     fadeHeight: "20px",
