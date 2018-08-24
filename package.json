@@ -1,6 +1,6 @@
 {
   "name": "react-gradient-scroll-indicator",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A wrapper for scrollable content that adds gradients indicating when more scrolling is possible",
   "author": "jbccollins",
   "license": "MIT",

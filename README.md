@@ -1,6 +1,6 @@
 # react-gradient-scroll-indicator
 
-> A wrapper for scrollable content that adds gradients indicating when more scrolling is possible
+A wrapper for scrollable content that adds gradients indicating when more scrolling is possible
 
 [![NPM](https://img.shields.io/npm/v/react-gradient-scroll-indicator.svg)](https://www.npmjs.com/package/react-gradient-scroll-indicator) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -9,6 +9,13 @@
 ```bash
 npm install --save react-gradient-scroll-indicator
 ```
+
+## Props
+| name         | default value | description                 |
+| ------------ | ------------- | --------------------------- |
+| primaryColor | #ffffff       | outer color                 |
+| fadeColor    | transparent   | inner color                 |
+| fadeHeight   | 20px          | height of the fade overlays |
 
 ## Usage
 

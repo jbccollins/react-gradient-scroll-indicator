@@ -1845,8 +1845,6 @@ currently-unhandled@^0.4.1:
 d@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/d/-/d-1.0.0.tgz#754bb5bfe55451da69a58b94d45f4c5b0462d58f"
-  dependencies:
-    es5-ext "^0.10.9"
 
 damerau-levenshtein@^1.0.0:
   version "1.0.4"
@@ -2058,8 +2056,6 @@ dom-serializer@0:
 dom-urls@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/dom-urls/-/dom-urls-1.1.0.tgz#001ddf81628cd1e706125c7176f53ccec55d918e"
-  dependencies:
-    urijs "^1.16.1"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -5559,6 +5555,10 @@ react-error-overlay@^4.0.0:
   version "0.0.0"
   uid ""
 
+react-lib-adler32@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-lib-adler32/-/react-lib-adler32-1.0.1.tgz#01f7a0e24fe715580aadb8a827c39a850e1ccc4e"
+
 react-scripts@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.1.4.tgz#d5c230e707918d6dd2d06f303b10f5222d017c88"
@@ -6381,6 +6381,12 @@ strip-indent@^1.0.1:
 strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
+
+style-it@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/style-it/-/style-it-2.0.0.tgz#59ba2bcd53aadc8c29ca7a51f816b774efc961eb"
+  dependencies:
+    react-lib-adler32 "^1.0.0"
 
 style-loader@0.19.0:
   version "0.19.0"
