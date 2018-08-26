@@ -19,11 +19,15 @@ export default class GradientScroll extends Component {
     this.handleScroll();
   }
 
+  componentDidUpdate(prevProps) {
+    if (prevProps.children !== this.props.children) {
+      this.handleScroll();
+    }
+  }
+
   handleScroll = () => {
     const scrollableScrollTop = this.scrollableElement.scrollTop;
-    const scrollableHeight = this.scrollableElement.clientHeight;
     const contentHeight = this.contentElement.clientHeight;
-    const diff = scrollableScrollTop - contentHeight;
     const atBottom = this.scrollableElement.scrollHeight === contentHeight + scrollableScrollTop;
     const overlayClasses = [];
     if (scrollableScrollTop === 0) {
